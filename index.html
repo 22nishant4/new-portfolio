@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio-website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--navbar section-->
+    <header>
+        <nav>
+            <div class="left">Nishant Protfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Service</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--main section-->
+    <main>
+        <section class="firstSection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple"><b>Nishant</b></span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="nishant.png.jpg" alt="">
+            </div>
+        </section>
+    </main>
+
+    <!--first section-->
+
+    <section class="first">
+        <h2>About Me</h2>
+        <div class="containerFirst">
+            <p>Hi, I’m Nishant Singh, a passionate front-end developer.<br>
+                I love building clean, responsive websites using HTML, CSS, and<br> JavaScript.
+                I’m continuously learning new technologies and improving my skills<br> to become a better full-stack
+                developer.</p>
+        </div>
+    </section>
+    <!--second section-->
+
+    <section class="secondSection">
+        <h2>Working skills</h2>
+        <div class="container">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
+    </section>
+    <!--third section-->
+
+    <section class="thirdSection">
+        <h3>Projects</h3>
+        <div class="items">
+            <div class="item1"><span class="dark">Amazon website</span>
+                <p>html & css based <br>project </p>
+            </div>
+            <div class="item2"><span class="darks">Todo-List App</span>
+                <p>JavaScript based Task<br> Manager</p>
+            </div>
+            <div class="item3"><span class="darkes">Portfolio website</span>
+                <p>Personal Responsive portfolio<br>website</p>
+            </div>
+        </div>
+    </section>
+
+    <!--footer section-->
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <h2>Nishant</h2>
+                <p>Front-End Developer creating modern & responsive websites.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Me</h3>
+                <div class="icons">
+                    <a href="#">🌐</a>
+                    <a href="#">🐦</a>
+                    <a href="#">💼</a>
+                    <a href="#">📸</a>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="footer-bottom">
+            © 2026 Nishant | All Rights Reserved
+        </p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Graphic Designer', 'Video Editor', 'Full Stack Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
