@@ -158,10 +158,12 @@ main {
 
 .box2 {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZAc4BswrDj_q0JcxkRYJ09NDHtv5GEfzOzQ&s");
+    min-height: 220px;
 }
 
 .box3 {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRss-86vRuxOArrVRmMgerLZ5pi8yCs6U7zsQ&s");
+    min-height: 220px;
 }
 
 /*third section*/
